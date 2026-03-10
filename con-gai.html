@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truyện Con Gái - WebTruyen</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header sticky-top">
+        <div class="header-top">
+            <div class="container-fluid px-3 px-md-4">
+                <div class="row align-items-center py-3">
+                    <div class="col-md-3 col-lg-2">
+                        <div class="logo">
+                            <a href="index.html" class="d-block">
+                                <img src="img/imagen-nettruyen-pro-truya-n-tranh-0ori.webp" alt="WebTruyen Logo" class="img-fluid" style="height: 45px;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-6">
+                        <div class="search-box position-relative">
+                            <input type="text" placeholder="Tìm truyện..." class="form-control search-input">
+                            <button class="btn search-btn position-absolute end-0 top-50 translate-middle-y me-2">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 text-end">
+                        <div class="header-actions d-flex align-items-center justify-content-end gap-3">
+                            <button class="btn theme-toggle" title="Đổi theme">
+                                <i class="fas fa-moon"></i>
+                            </button>
+                            <a href="#" class="btn btn-primary login-btn">
+                                <i class="fas fa-user me-2"></i>Đăng nhập
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid px-3 px-md-4">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav nav-menu">
+                        <li class="nav-item"><a href="index.html" class="nav-link"><i class="fas fa-home me-1"></i>Trang chủ</a></li>
+                        <li class="nav-item"><a href="hot.html" class="nav-link"><i class="fas fa-fire me-1"></i>Hot</a></li>
+                        <li class="nav-item"><a href="theo-doi.html" class="nav-link"><i class="fas fa-bookmark me-1"></i>Theo dõi</a></li>
+                        <li class="nav-item"><a href="lich-su.html" class="nav-link"><i class="fas fa-history me-1"></i>Lịch sử</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                <i class="fas fa-th me-1"></i>Thể loại
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="hanh-dong.html">Hành động</a></li>
+                                <li><a class="dropdown-item" href="tinh-cam.html">Tình cảm</a></li>
+                                <li><a class="dropdown-item" href="hai-huoc.html">Hài hước</a></li>
+                                <li><a class="dropdown-item" href="kinh-di.html">Kinh dị</a></li>
+                            </ul>
+                        </li>
+                     
+                        <li class="nav-item"><a href="tim-truyen.html" class="nav-link"><i class="fas fa-search me-1"></i>Tìm truyện</a></li>
+                        <li class="nav-item"><a href="con-gai.html" class="nav-link active"><i class="fas fa-female me-1"></i>Con gái</a></li>
+                        <li class="nav-item"><a href="con-trai.html" class="nav-link"><i class="fas fa-male me-1"></i>Con trai</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container-fluid px-3 px-md-4 mt-4">
+            <!-- Page Header -->
+            <div class="page-header mb-4">
+                <h1 class="mb-2">
+                    <i class="fas fa-female text-danger me-2"></i>Truyện Con Gái
+                </h1>
+                <p class="text-muted mb-0">Tuyển tập truyện tranh dành cho con gái</p>
+            </div>
+
+            <!-- Featured Section -->
+            <section class="featured-section mb-5">
+                <div class="row g-4">
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                        <div class="comic-card h-100">
+                            <a href="#" class="comic-image position-relative d-block mb-3 rounded-3 overflow-hidden">
+                                <img src="img/toan-nang-giac-tinh-su.jpg" alt="Toàn Năng Giác Tỉnh Sư" class="img-fluid w-100">
+                                <div class="comic-overlay position-absolute top-0 end-0 m-2">
+                                    <span class="badge bg-success">Đang cập nhật</span>
+                                </div>
+                            </a>
+                            <div class="comic-info">
+                                <h6 class="comic-title mb-2">
+                                    <a href="#" class="text-decoration-none">Toàn Năng Giác Tỉnh Sư</a>
+                                </h6>
+                                <a href="#" class="comic-chapter text-primary text-decoration-none d-block mb-2 small">Chapter 150</a>
+                                <div class="comic-meta text-muted small">
+                                    <i class="far fa-clock me-1"></i>3 ngày trước
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                        <div class="comic-card h-100">
+                            <a href="#" class="comic-image position-relative d-block mb-3 rounded-3 overflow-hidden">
+                                <img src="img/em-co-nghe-thay.jpg" alt="Em Có Nghe Thấy" class="img-fluid w-100">
+                                <div class="comic-overlay position-absolute top-0 end-0 m-2">
+                                    <span class="badge bg-success">Đang cập nhật</span>
+                                </div>
+                            </a>
+                            <div class="comic-info">
+                                <h6 class="comic-title mb-2">
+                                    <a href="#" class="text-decoration-none">Em Có Nghe Thấy</a>
+                                </h6>
+                                <a href="#" class="comic-chapter text-primary text-decoration-none d-block mb-2 small">Chapter 120</a>
+                                <div class="comic-meta text-muted small">
+                                    <i class="far fa-clock me-1"></i>5 ngày trước
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                        <div class="comic-card h-100">
+                            <a href="#" class="comic-image position-relative d-block mb-3 rounded-3 overflow-hidden">
+                                <img src="img/gia-chu-nha-ta-moi-tam-tuoi-thoi.jpg" alt="Gia Chủ Nhà Ta Mới Tám Tuổi Thôi" class="img-fluid w-100">
+                                <div class="comic-overlay position-absolute top-0 end-0 m-2">
+                                    <span class="badge bg-info">Hoàn thành</span>
+                                </div>
+                            </a>
+                            <div class="comic-info">
+                                <h6 class="comic-title mb-2">
+                                    <a href="#" class="text-decoration-none">Gia Chủ Nhà Ta Mới Tám Tuổi Thôi</a>
+                                </h6>
+                                <a href="#" class="comic-chapter text-primary text-decoration-none d-block mb-2 small">Chapter 200</a>
+                                <div class="comic-meta text-muted small">
+                                    <i class="far fa-clock me-1"></i>1 tuần trước
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                        <div class="comic-card h-100">
+                            <a href="#" class="comic-image position-relative d-block mb-3 rounded-3 overflow-hidden">
+                                <img src="img/xuyen-khong-toi-tu-tien-gioi-lam-tru-than.jpg" alt="Xuyên Không Tới Tu Tiên Giới Làm Trù Thần" class="img-fluid w-100">
+                                <div class="comic-overlay position-absolute top-0 end-0 m-2">
+                                    <span class="badge bg-success">Đang cập nhật</span>
+                                </div>
+                            </a>
+                            <div class="comic-info">
+                                <h6 class="comic-title mb-2">
+                                    <a href="#" class="text-decoration-none">Xuyên Không Tới Tu Tiên Giới Làm Trù Thần</a>
+                                </h6>
+                                <a href="#" class="comic-chapter text-primary text-decoration-none d-block mb-2 small">Chapter 180</a>
+                                <div class="comic-meta text-muted small">
+                                    <i class="far fa-clock me-1"></i>2 tuần trước
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                        <div class="comic-card h-100">
+                            <a href="#" class="comic-image position-relative d-block mb-3 rounded-3 overflow-hidden">
+                                <img src="img/quai-luc-loan-than.jpg" alt="Quái Lực Loạn Thần" class="img-fluid w-100">
+                                <div class="comic-overlay position-absolute top-0 end-0 m-2">
+                                    <span class="badge bg-success">Đang cập nhật</span>
+                                </div>
+                            </a>
+                            <div class="comic-info">
+                                <h6 class="comic-title mb-2">
+                                    <a href="#" class="text-decoration-none">Quái Lực Loạn Thần</a>
+                                </h6>
+                                <a href="#" class="comic-chapter text-primary text-decoration-none d-block mb-2 small">Chapter 160</a>
+                                <div class="comic-meta text-muted small">
+                                    <i class="far fa-clock me-1"></i>3 tuần trước
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                        <div class="comic-card h-100">
+                            <a href="#" class="comic-image position-relative d-block mb-3 rounded-3 overflow-hidden">
+                                <img src="img/mat-the-trung-sinh-ta-dua-vao-mo-ruong-van-dinh-dinh-phong.jpg" alt="Mạt Thế Trùng Sinh: Ta Dựa Vào Mở Rương" class="img-fluid w-100">
+                                <div class="comic-overlay position-absolute top-0 end-0 m-2">
+                                    <span class="badge bg-success">Đang cập nhật</span>
+                                </div>
+                            </a>
+                            <div class="comic-info">
+                                <h6 class="comic-title mb-2">
+                                    <a href="#" class="text-decoration-none">Mạt Thế Trùng Sinh: Ta Dựa Vào Mở Rương</a>
+                                </h6>
+                                <a href="#" class="comic-chapter text-primary text-decoration-none d-block mb-2 small">Chapter 140</a>
+                                <div class="comic-meta text-muted small">
+                                    <i class="far fa-clock me-1"></i>1 tháng trước
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container-fluid px-3 px-md-4 py-5">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5 class="mb-3">Về WebTruyen</h5>
+                    <p class="text-muted">Trang web đọc truyện tranh online miễn phí, cập nhật nhanh nhất với hàng nghìn truyện tranh chất lượng cao.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-3">Liên kết</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Điều khoản sử dụng</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Chính sách bảo mật</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-3">Theo dõi</h5>
+                    <div class="social-links d-flex gap-3">
+                        <a href="#" class="btn btn-outline-primary rounded-circle"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="btn btn-outline-info rounded-circle"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-outline-danger rounded-circle"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center text-muted">
+                <p class="mb-0">&copy; 2024 WebTruyen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
